@@ -53,8 +53,8 @@
    EndFunc
 
    Func _Main()
-	   Global $ifmspwd = "Janjan@2021"
-	   Global $winntpwd = "Sepsep@2020"
+	   Global $ifmspwd = "abc"
+	   Global $winntpwd = "abc"
 
 	   Global $alm = 1
 	   Global $prevsms = ""
@@ -1372,7 +1372,7 @@ MouseClick("right")
 
 	   Send("^v")
 
-	   WinSetTitle("Untitled - Notepad","","QuickSC © M. Hasan Abbas")
+	   WinSetTitle("Untitled - Notepad","","QuickSC Â© M. Hasan Abbas")
 
 
 
@@ -1419,7 +1419,7 @@ MouseClick("right")
 
 	   Send("^v")
 
-	   WinSetTitle("Untitled - Notepad","","QuickSC © M. Hasan Abbas")
+	   WinSetTitle("Untitled - Notepad","","QuickSC Â© M. Hasan Abbas")
 	   #comments-end
 
 	   EndFunc
